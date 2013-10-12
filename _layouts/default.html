@@ -2,17 +2,20 @@
 <html>
 <head>
   <meta charset=utf-8 />
-  <title> {% if page.title %} {{ page.title }} | {% endif %} John Doe, Photographer </title>
+  <title> {% if page.title %} {{ page.title }} | {% endif %} Nicholas Lee </title>
   <link rel="stylesheet" href="/css/main.css" />
 </head>
+
 <body>
- 
   <div id="main">
  
     <header>
       <h1> Nicholas Lee </h1>
-    <header>
+    </header>
  
+    {{ content }}
+
+
     <nav role="navigation">
       <ul>
         <li><a href="/">Home</a></li>
@@ -21,9 +24,7 @@
         <li><a href="/contact">Contact</a></li>
       </ul>
     </nav>
- 
-    {{ content }}
- 
   </div>
 </body>
+
 </html>
