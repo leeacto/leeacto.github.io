@@ -10,12 +10,17 @@ body {
   margin: 0;
 }
 
+.bio {
+  width: 75%;
+  margin: auto;
+}
+
 ul {
   margin: 0;
   padding: 0;
 }
 a {
-  color: #ccc;
+  color: #222;
   text-decoration: none;
 }
  
@@ -40,8 +45,14 @@ img.gravatar {
 header {
   padding: 0 10px;
   overflow: hidden;
+  text-align: center;
+  margin: 0;
 }
-h1 {
+header h1 {
+  margin-bottom: 2px;
+}
+
+header h5 {
   margin: 0;
 }
 
