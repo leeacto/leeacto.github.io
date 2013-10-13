@@ -52,7 +52,7 @@ header h5 {
 
 nav {
   position: absolute;
-  bottom: 0;
+  top: 0;
 }
 
 nav ul, ul.entries {
@@ -102,14 +102,34 @@ footer {
   margin-bottom: 0;
 }
 
-.projects.examples {
+.projects .examples {
   margin: auto;
+  border: 1px solid black;
 }
 .blurb {
-  width: 30%;
+  height: 33%;
+  width: 32%;
   display: inline-block;
+  border: 1px solid black;
 }
 
 .blurb img {
   margin: auto;
+}
+
+.app_title {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+.app_img {
+  text-align: center;
+  height: 164px;
+  padding: auto;
+}
+
+.description {
+  font-size: 9pt;
+  padding: 3px;
 }
