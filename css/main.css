@@ -8,11 +8,6 @@ body {
   margin: 0;
 }
 
-
-ul {
-  margin: 0;
-  padding: 0;
-}
 a {
   color: #222;
   text-decoration: none;
@@ -50,19 +45,26 @@ header h5 {
   margin: 0;
 }
 
+/* Footer Begin */
 nav {
   position: absolute;
-  top: 0;
+  bottom: 0;
 }
 
-nav ul, ul.entries {
+nav ul {
   display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
   list-style-type: none;
 }
 nav li a {
   float: left;
   margin: 5px; 
 }
+/* Footer End */
+
 .content {
   width: 75%;
   padding: 10px;
@@ -73,27 +75,13 @@ nav li a {
   width: 75%;
   margin: auto;
 }
-ul.entries li {
-  position: relative;
-  margin: 20px auto;
-  padding: 20px;
-  background: #ececec;
-  width: 600px;
-}
- 
-ul.entries a {
-  color: #ececec;
-}
-ul.entries a:hover {
-  color: #fff;
-}
  
 footer {
   font-size: 0.65em;
   text-align: center;
 }
 
-/* Select Projects CSS */
+/* Select Projects Begin */
 .projects {
   width: 75%;
   margin: auto;
@@ -104,13 +92,13 @@ footer {
 
 .projects .examples {
   margin: auto;
-  border: 1px solid black;
 }
 .blurb {
   height: 33%;
-  width: 32%;
+  width: 32.5%;
   display: inline-block;
-  border: 1px solid black;
+  vertical-align: top;
+  margin: auto;
 }
 
 .blurb img {
@@ -123,6 +111,13 @@ footer {
   padding-bottom: 2px;
 }
 
+.app_repo {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2px;
+  font-size: 8pt;
+}
+
 .app_img {
   text-align: center;
   height: 164px;
@@ -133,3 +128,5 @@ footer {
   font-size: 9pt;
   padding: 3px;
 }
+
+/* Select Projects End */
