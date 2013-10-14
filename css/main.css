@@ -14,7 +14,7 @@ a {
 }
  
 a:hover {
-  color: #ececec;
+  color: #444;
   text-decoration: underline;
 }
  
@@ -65,7 +65,8 @@ footer ul li {
 }
 footer li a {
   float: left;
-  margin: 5px; 
+  margin: 5px;
+  font-size: 15px;
 }
 /* Footer End */
 
@@ -78,11 +79,6 @@ footer li a {
 .bio {
   width: 75%;
   margin: auto;
-}
- 
-footer {
-  font-size: 0.65em;
-  text-align: center;
 }
 
 /* Select Projects Begin */
@@ -132,5 +128,4 @@ footer {
   font-size: 9pt;
   padding: 3px;
 }
-
 /* Select Projects End */
