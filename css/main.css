@@ -31,6 +31,7 @@ img.gravatar {
   margin-right: auto;
 }
 
+/* Header Begin */
 header {
   padding: 0 10px;
   overflow: hidden;
@@ -44,22 +45,25 @@ header h1 {
 header h5 {
   margin: 0;
 }
+/* Header End */
 
 /* Footer Begin */
-nav {
-  position: absolute;
-  bottom: 0;
+footer {
+  padding: 0 10px;
+  overflow: hidden;
+  text-align: center;
+  margin: 0;
 }
 
-nav ul {
-  display: inline-block;
+footer ul {
   margin: 0;
   padding: 0;
 }
-nav ul li {
+footer ul li {
+  display: inline-block;
   list-style-type: none;
 }
-nav li a {
+footer li a {
   float: left;
   margin: 5px; 
 }
