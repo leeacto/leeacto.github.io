@@ -1,4 +1,3 @@
-
 body {
   font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
   background: black;
@@ -129,3 +128,55 @@ footer li a {
   padding: 3px;
 }
 /* Select Projects End */
+
+/*Resume Skills List Begin*/
+.resume {
+  padding: 50px;
+}
+
+.resume h4 {
+  margin: 0;
+}
+.skills {
+  padding-left: 10px;
+}
+
+.skills li{
+  list-style-type: none;
+}
+.comment {
+  font-size: 12px;
+  padding-left: 10px;
+}
+/* Resume Skills List End*/
+
+/* Resume Experience List Begin */
+.experience {
+  margin-top: 8px;
+}
+.host {
+  list-style-type: none;
+}
+.position {
+  font-size: 10px;
+  list-style-type: none;
+}
+.task {
+  font-size: 10px;
+  margin-left: 20px;
+}
+/* Resume Experience List End */
+
+/* Resume Education List Begin */
+.degree {
+  margin-top: 0px;
+}
+
+.degree li{
+  list-style-type: none;
+}
+
+.focus {
+  font-size: 10px;
+}
+/* Resume Education List End */
