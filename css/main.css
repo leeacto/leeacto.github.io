@@ -123,6 +123,10 @@ footer li a {
   padding: auto;
 }
 
+.proj_img {
+	max-height: 159px;
+}
+
 .description {
   font-size: 9pt;
   padding: 3px;
