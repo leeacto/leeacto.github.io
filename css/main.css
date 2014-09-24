@@ -75,9 +75,10 @@ footer li a {
   margin: auto;
 }
 
-.bio {
-  width: 75%;
-  margin: auto;
+.bio { width: 100% }
+.bio p {
+  width: 100%;
+  text-align: center;
 }
 
 /* Select Projects Begin */
@@ -94,13 +95,14 @@ footer li a {
 }
 .blurb {
   height: 33%;
-  width: 32.5%;
+  width: 48%;
   display: inline-block;
   vertical-align: top;
   margin: auto;
 }
 
 .blurb img {
+  max-width: 100%;
   margin: auto;
 }
 
