@@ -94,11 +94,13 @@ footer li a {
   margin: auto;
 }
 .blurb {
-  height: 33%;
+  height: 268px;
   width: 48%;
   display: inline-block;
   vertical-align: top;
-  margin: auto;
+  margin: 2px;
+  border: 2px solid black;
+  border-radius: 3px;
 }
 
 .blurb img {
